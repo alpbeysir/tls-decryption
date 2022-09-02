@@ -1,9 +1,4 @@
-# Find best game
+# TLS Decryption
 
-My favorite game hiding inside the pcap file and your target is that. 
-You should use pure python for this mission.
-
-## Tips
-You can start from this project https://github.com/tintinweb/scapy-ssl_tls
-and specially this example https://github.com/tintinweb/scapy-ssl_tls/blob/master/examples/sessionctx_sniffer.py.
-
+scapy usage for TLS session decryption with server private key.
+Would not work for TLSv1.3 due to perfect forward secrecy.
